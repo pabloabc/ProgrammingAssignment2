@@ -26,7 +26,7 @@ cacheSolve <- function(x, ...) {
     m <- x$getMinv()
     if(!is.null(m)) {
         message(paste("Getting Matrix Inverse stored previously in cache.Using cached data.",
-                      "Nothing computed here.", sep="") )
+                      "Nothing was computed now.", sep="") )
         return(m)
     }
     data <- x$get()
